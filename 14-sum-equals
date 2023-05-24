@@ -1,5 +1,5 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
-   if(sumEquals(a,b)== c){
+   if(sumEquals(Integer a,Integer b)== c){
       return true;
    }else{
        return false;

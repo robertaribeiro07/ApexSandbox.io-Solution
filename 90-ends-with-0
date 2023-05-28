@@ -1,0 +1,9 @@
+public Boolean isEndWithZero(Integer num){
+  List<String> numeros = new List<String>{10,2,3,20};
+    for (String n : numeros) {
+        if (numeros.endswith(n)) {
+            return true;
+        }
+    }
+    return false;
+}

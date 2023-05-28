@@ -1,5 +1,5 @@
 public Boolean isEndWithZero(Integer num){
-  List<Integer> numeros = new List<String>{10,2,3,20};
+  List<Integer> numeros = new List<Integer>{10,2,3,20};
     for (Integer n : numeros) {
         if (numeros.endswith(n)) {
             return true;

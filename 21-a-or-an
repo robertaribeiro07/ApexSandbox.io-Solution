@@ -1,0 +1,9 @@
+public String aOrAn(String word) {
+  List<String> vogais = new List<String>{'a','e','i','o','u'};
+    for (String vogal : vogais) {
+        if (word.startsWithIgnoreCase(vogal)) {
+            return 'an ' + word;
+        }
+    }
+    return 'a ' + word;
+}

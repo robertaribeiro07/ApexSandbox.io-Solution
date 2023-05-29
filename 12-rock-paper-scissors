@@ -1,0 +1,24 @@
+public Integer rockPaperScissors(String player1, String player2) {
+   String pedra;
+   String tesoura;
+   String papel;
+   if(player1==pedra &&  player2==tesoura){
+       return1;
+   }
+    if(player1==tesoura &&  player2==papel){
+       return1;
+   }
+   if(player1==papel &&  player2==pedra){
+       return1;
+   }
+
+   if(player2==pedra &&  player1==tesoura){
+       return2;
+   }
+    if(player2==tesoura &&  player1==papel){
+       return2;
+   }
+   if(player2==papel &&  player1==pedra){
+       return2;
+   }
+}

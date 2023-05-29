@@ -2,6 +2,8 @@ public Integer rockPaperScissors(String player1, String player2) {
    String pedra;
    String tesoura;
    String papel;
+   Interger 1;
+   Interger 2;
    if(player1==pedra &&  player2==tesoura){
        return 1;
    }

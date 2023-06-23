@@ -1,16 +1,16 @@
 public Boolean companionPlants(String plant1, String plant2) {
-  if( plant1 ='alface' == plant2='pepino'){
-    return true;
-  }
-   if( plant1 ='alface' ==  plant2='cebola'){
-    return true;
-  }
-   if(plant1 ='cebola' ==  plant2='cenoura'){
-    return true;
-  }
-  if( plant1 ='cebola' ==  plant2='tomate'){
-    return true;
-  }else{
-      return false;
-  }
+  map<String,String>companheiraMap = new map<String,String>{
+        'alface' => 'pepino',
+        'cebola' => 'alface',
+        'cenoura' => 'cebola',
+        'tomate' => 'cebola'
+    };
+    if ((companheiraMap.get(plant1) == plant2) ||
+        (companheiraMap.get(plant2) == plant1)) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
+  

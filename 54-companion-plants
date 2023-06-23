@@ -1,14 +1,14 @@
 public Boolean companionPlants(String plant1, String plant2) {
-  if(String plant1 ='alface' == String plant2='pepino'){
+  if( plant1 ='alface' == plant2='pepino'){
     return true;
   }
-   if(String plant1 ='alface' == String plant2='cebola'){
+   if( plant1 ='alface' ==  plant2='cebola'){
     return true;
   }
-   if(String plant1 ='cebola' == String plant2='cenoura'){
+   if(plant1 ='cebola' ==  plant2='cenoura'){
     return true;
   }
-  if(String plant1 ='cebola' == String plant2='tomate'){
+  if( plant1 ='cebola' ==  plant2='tomate'){
     return true;
   }else{
       return false;
